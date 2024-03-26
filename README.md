@@ -1,1 +1,1 @@
-Hi
+theme: jekyll-theme-minimal
