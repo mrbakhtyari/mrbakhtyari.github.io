@@ -1,7 +1,8 @@
 # Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+**About Me**
 
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
+I am a Computer Science Ph.D. student at the Université du Québec à Montréal (UQAM), advised by Prof. [Vladimir Makarenkov](http://www.info2.uqam.ca/~makarenkov_v/site_web/index_en.html).My research is focused at the intersection of **Machine Learning**, **Arificial Intelligence**, and **Bioinformatics**.
+<!-- ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example") -->
 
 # Getting Started
 
