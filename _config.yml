@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Mohammadreza Bakhtyari / AI Researcher"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,15 +26,15 @@ author:
   avatar           : "profile.png"
   name             : "Mohammadreza Bakhtyari"
   pronouns         : # example: "she/her"  
-  bio              : "ML/AI Researcher and Ph.D. Candidate focused on developing innovative solutions in artificial intelligence and machine learning."
+  bio              : "ML/AI Researcher and Ph.D. Candidate // [last-name].[first-name]@courrier.uqam.ca"
   location         : "Canada"
   employer         : "Université du Québec à Montréal"
   uri              : # URL
-  email            : "[last-name].[first-name]@courrier.uqam.ca"
+  email            : # URL
 
   # Academic websites
   academia         : # URL
-  arxiv            : "https://arxiv.org/search/cs?searchtype=author&query=Bakhtyari,+M"
+  arxiv            : # Author ID
   googlescholar    : "https://scholar.google.com/citations?user=TzIdZ0MAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
