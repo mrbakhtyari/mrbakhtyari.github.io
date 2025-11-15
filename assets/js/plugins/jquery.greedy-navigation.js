@@ -59,7 +59,8 @@ function updateNav() {
   $btn.attr("count", breaks.length);
 
   // update masthead height and the body/sidebar top padding
-  var mastheadHeight = $('.masthead').height();
+  // If masthead is removed, default to 0 to avoid setting invalid padding
+  var mastheadHeight = $('.masthead').length ? $('.masthead').height() : 0;
   $('body').css('padding-top', mastheadHeight + 'px');
   if ($(".author__urls-wrapper button").is(":visible")) {
     $(".sidebar").css("padding-top", "");
