@@ -1,0 +1,141 @@
+/* ==========================================================================
+   MINIMAL CENTERED LAYOUT
+   ========================================================================== */
+
+/* Center the main content and remove sidebar */
+.author-profile-minimal {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  
+  .author__avatar {
+    display: block;
+    margin: 0 auto 30px;
+    width: auto;
+    
+    img {
+      max-width: 175px;
+      border-radius: 50%;
+      border: none;
+    }
+  }
+  
+  .author__content {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    
+    .author__name {
+      font-size: $type-size-1;
+      font-weight: 700;
+      margin: 0 0 15px 0;
+      line-height: 1.2;
+    }
+    
+    .author__bio {
+      font-size: $type-size-5;
+      line-height: 1.6;
+      margin: 10px 0;
+      color: var(--global-text-color);
+    }
+    
+    .author__email {
+      font-size: $type-size-6;
+      font-family: $monospace;
+      margin: 10px 0;
+      color: var(--global-text-color-light);
+    }
+  }
+  
+  .author__urls-wrapper {
+    display: block;
+    margin-top: 20px;
+    position: static;
+  }
+  
+  .social-icons-minimal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    
+    li {
+      display: inline-block;
+      margin: 0;
+      
+      a {
+        color: var(--global-text-color);
+        font-size: $type-size-3;
+        transition: $global-transition;
+        text-decoration: none;
+        
+        &:hover {
+          color: var(--global-link-color);
+        }
+        
+        i {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Hide the sidebar completely for minimal layout */
+.layout--single-minimal {
+  .sidebar {
+    display: none;
+  }
+  
+  .archive {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    @include breakpoint($large) {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  #main {
+    max-width: 100%;
+  }
+}
+
+/* Adjust page content for centered layout */
+.page__content-minimal {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  
+  h2 {
+    font-size: $type-size-2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: $type-size-3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  p, li {
+    font-size: $type-size-5;
+    line-height: 1.7;
+    margin-bottom: 1em;
+  }
+  
+  ul {
+    list-style-position: outside;
+    padding-left: 1.5em;
+  }
+}

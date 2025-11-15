@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+layout: minimal
 author_profile: true
 redirect_from: 
   - /about/
