@@ -30,7 +30,7 @@ author:
   location         : "Canada"
   employer         : "Université du Québec à Montréal"
   uri              : "/files/cv.pdf" # Link to your CV PDF
-  email            : "bakhtyari.mohammadreza@courrier.uqam.ca"
+  email            : "[lastname].mohammadreza@courrier.uqam.ca"
 
   # Academic websites
   academia         : # URL
