@@ -245,6 +245,11 @@
 
   li {
     white-space: nowrap;
+    
+    @include breakpoint($large) {
+      display: inline-block;
+      margin-right: 10px;
+    }
   }
 
   a {
