@@ -20,4 +20,3 @@ I am a Computer Science Ph.D. student at the **Université du Québec à Montré
 
 - **Ph.D., Computer Science** — UQAM, Montréal, 2024–2027
 - **M.Sc., Algorithms &amp; Computation** — University of Tehran, 2019-2021
-- **B.Eng., Software Engineering** — University of Zanjan, 2014-2019
