@@ -29,7 +29,7 @@ author:
   bio              : "ML/AI Researcher and Ph.D. Candidate"
   location         : "Canada"
   employer         : "Université du Québec à Montréal"
-  uri              : "/files/cv.pdf" # Link to your CV PDF
+  uri              : # CV link intentionally left blank
   email            : "[lastname].[name]@courrier.uqam.ca"
 
   # Academic websites
