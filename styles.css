@@ -196,15 +196,22 @@ h1 {
 .prose p { max-width: 68ch; margin: 0 0 16px; }
 .prose p:last-child { margin-bottom: 0; }
 
-.support-note,
-.interest-line { color: var(--muted); font-size: .92rem; }
+.support-note { color: var(--muted); font-size: .92rem; }
 
-.interest-line span {
-  display: inline-block;
-  margin-right: .55em;
+.interest-block { margin-top: 18px; }
+.interest-label {
+  margin: 0 0 6px;
   color: var(--ink);
+  font-size: .92rem;
   font-weight: 600;
 }
+.interest-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  font-size: .92rem;
+}
+.interest-list li { margin: 2px 0; }
 
 .publications-section { display: block; }
 
