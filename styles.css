@@ -259,18 +259,6 @@ h1 {
 .venue { margin-top: 2px; color: var(--muted); font-style: italic; }
 
 .publication { scroll-margin-top: 28px; }
-.venue-featured { margin-top: 8px; font-style: normal; }
-.venue-tag {
-  display: inline-block;
-  padding: 3px 9px;
-  border: 1px solid #d4dfe7;
-  border-radius: 5px;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-weight: 600;
-  font-size: .85rem;
-}
-.venue-name { display: block; margin-top: 5px; }
 
 .pub-links { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 0; align-items: flex-start; }
 .pub-links a {
